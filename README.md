@@ -35,30 +35,35 @@ A responsive NGO website built using React.js and Tailwind CSS for NayePankh Fou
 
 1. Clone the repository
 
+```bash
 git clone <repository-url>
-
+```
 
 2. Navigate to the project directory
 
+```bash
 cd nayepankh-foundation
-
+```
 
 3. Install dependencies
 
+```bash
 npm install
-
+```
 
 4. Start development server
 
+```bash
 npm run dev
-
+```
 
 ## Environment Variables
 
 Create a `.env` file in the root directory and add:
 
+```env
 VITE_WEB3FORMS_KEY=your_web3forms_access_key
-
+```
 
 ## Live Demo
 

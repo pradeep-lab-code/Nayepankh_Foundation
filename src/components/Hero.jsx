@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import hero from "../assets/hero.jpg"
 
 const Hero = () => {
   return (
@@ -65,7 +66,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="./src/assets/empowering_lives.jpg"
+            src={hero}
             alt="Empowering Lives"
             className="w-full h-[300px] md:h-[450px] object-cover rounded-3xl shadow-xl"
           />

@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import about from "../assets/about.jpg";
+
 
 const About = () => {
   return (
@@ -34,9 +36,9 @@ const About = () => {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="./src/assets/about_us.jpg"
+            src={about}
             alt="About NayePankh Foundation"
-            className="w-full h-[350px] md:h-[550px] object-cover rounded-3xl shadow-lg"
+            className="w-full h-[350px] md:h-full object-cover rounded-3xl shadow-lg"
           />
         </motion.div>
 

@@ -21,7 +21,7 @@ const Hero = () => {
             Empowering Communities Across India
           </p>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 mt-4">
+          <h1 className="text-4xl lg:text-5xl font-bold leading-tight text-gray-900 mt-4">
             Empowering Youth Through Education & Skill Development
           </h1>
 

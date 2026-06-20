@@ -57,8 +57,8 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
 
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
@@ -112,8 +112,8 @@ const Contact = () => {
           <motion.form
             onSubmit={handleSubmit}
             className="bg-white p-8 rounded-3xl shadow-lg space-y-6"
-            initial={{ opacity: 0, x: 40 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
